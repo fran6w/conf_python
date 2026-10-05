@@ -1,10 +1,4 @@
-# Conférences Python 2026
-
-Francis Wolinski
-- Consultant scientifique indépendant depuis 2013
-- Intervenant dans le Master TIDE depuis 2015
-
-## Programme des conférences Python
+# Conférences Python
 
 1. Manipulation et analyse de données
 	- Méthodologie CRISP-DM
@@ -36,6 +30,3 @@ Francis Wolinski
 	- Algorithmes t-SNE et PCA
 	- Graphiques : scatter plots, treemaps, cartes, Sankey
 	- Datasets : e-commerce, GeoNames, Fortune 1000, communes françaises
-
-
-Notebooks disponibles sur : https://github.com/fran6w/TIDE
