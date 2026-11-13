@@ -17,8 +17,10 @@
 	- Datasets : prénoms américains et français, indice SWI (Soil Wetness Index)
 
 4. **Collecte de données — Web Scraping et APIs**
-	- Librairies Requests, Beautiful Soup
-	- Gestion des variables d'environnement avec dotenv
+	- Rappels sur HTTP(S), HTML, CSS
+	- Web scrapping avec requests et Beautiful Soup
+	- API avec requests, gestion des variables d'environnement avec dotenv
+	- Démo d'accès à un LLM avec requests et ollama
 	- Sources : Craigslist, Deezer, OpenWeatherMap
 
 5. **Concurrence en Python et exploration visuelle des données**
