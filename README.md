@@ -21,13 +21,19 @@
 	- Web scrapping avec requests et Beautiful Soup
 	- API avec requests, gestion des variables d'environnement avec dotenv
 	- Démo d'accès à un LLM avec requests et ollama
-	- Sources : Craigslist, Deezer, OpenWeatherMap
+	- Sources : Deezer, OpenWeatherMap
 
 5. **Concurrence en Python et exploration visuelle des données**
-	- Multiprocessing et multithreading
-	- Librairies Pandas et Plotly
-	- Algorithmes PCA  et t-SNE (scikit-learn)
-	- Datasets : e-commerce
+
+	5a. Concurrence en Python
+	- Séquentiel, Multiprocessing et multithreading
+	- Exercices sur des tâches CPU-bound et IO-bound
+	- Comparaison Pandas vs Polars
+
+	5b. Exploration visuelle des données
+	- Librairies Pandas, Scikit Learn, Plotly
+	- Algorithmes PCA  et t-SNE
+	- Datasets : UNCTAD, GeoNames
 
 6. **Visualisation interactive et exploration avancée des données**
 	- Librairies Pandas et Plotly
