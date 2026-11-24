@@ -26,16 +26,16 @@
 5. **Concurrence en Python et exploration visuelle des données**
 
 	5a. Concurrence en Python
-	- Séquentiel, Multiprocessing et multithreading
+	- Séquentiel, multiprocessing et multithreading
 	- Exercices sur des tâches CPU-bound et IO-bound
 	- Comparaison Pandas vs Polars
 
 	5b. Exploration visuelle des données
-	- Librairies Pandas, Scikit Learn, Plotly
+	- Librairies Pandas, Scikit-Learn, Plotly
 	- Algorithmes PCA  et t-SNE
 	- Datasets : UNCTAD, GeoNames
 
-6. **Visualisation interactive et exploration avancée des données**
-	- Librairies Pandas et Plotly
-	- Graphiques : scatter plots, treemaps, cartes, Sankey
-	- Datasets : GeoNames, Fortune 1000, communes françaises
+6. **Data visualisation avancée**
+	- Librairies Pandas, Plotly (express et graph_objects), Polars et NetworkX
+	- Graphiques : treemaps, cartes choroplèthes et nuage de points, Sankey, graphes (réseau)
+	- Datasets : Fortune 1000, communes françaises, GeoDataSource
