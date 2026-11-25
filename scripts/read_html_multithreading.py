@@ -1,6 +1,7 @@
 # coding: utf-8
 
 import time
+from concurrent.futures import ThreadPoolExecutor
 from io import StringIO
 
 import pandas as pd
@@ -24,7 +25,8 @@ def run():
     urls = [url1, url2, url3]
 
     # CODE A COMPLETER
-
+    with ThreadPoolExecutor() as executor:
+        executor.map(f, urls)
 
 if __name__ == "__main__":
     start = time.perf_counter()

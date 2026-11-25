@@ -2,6 +2,7 @@
 
 import time
 from math import sqrt
+from multiprocessing import Pool
 
 
 def f(n):
@@ -24,6 +25,8 @@ def run():
     ]
 
     # CODE A COMPLETER
+    with Pool() as p:
+        p.map(f, numbers)
 
 
 if __name__ == "__main__":

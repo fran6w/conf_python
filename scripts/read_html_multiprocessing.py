@@ -2,6 +2,7 @@
 
 import time
 from io import StringIO
+from multiprocessing import Pool
 
 import pandas as pd
 import requests
@@ -24,6 +25,8 @@ def run():
     urls = [url1, url2, url3]
 
     # CODE A COMPLETER
+    with Pool() as p:
+        p.map(f, urls)
 
 
 if __name__ == "__main__":

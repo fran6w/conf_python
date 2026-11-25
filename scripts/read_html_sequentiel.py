@@ -24,7 +24,7 @@ def run():
     urls = [url1, url2, url3]
 
     # CODE A COMPLETER
-
+    list(map(f, urls))
 
 if __name__ == "__main__":
     start = time.perf_counter()

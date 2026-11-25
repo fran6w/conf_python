@@ -1,6 +1,7 @@
 # coding: utf-8
 
 import time
+from concurrent.futures import ThreadPoolExecutor
 from math import sqrt
 
 
@@ -24,7 +25,8 @@ def run():
     ]
 
     # CODE A COMPLETER
-
+    with ThreadPoolExecutor() as executor:
+        executor.map(f, numbers)
 
 if __name__ == "__main__":
     start = time.perf_counter()
